@@ -1,0 +1,15 @@
+name: lfi
+channels:
+- menpo
+- pytorch
+dependencies:
+- pip
+- matplotlib
+- numpy
+- keras
+- scikit-learn
+- pytorch 
+- torchvision
+- pip:
+  - opencv-python==3.4.2.17
+  - opencv-contrib-python==3.4.2.17

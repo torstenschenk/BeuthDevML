@@ -1,0 +1,13 @@
+name: cv
+channels:
+- menpo
+dependencies:
+- pip
+- matplotlib
+- numpy
+- keras
+- scikit-learn
+- pip:
+  - opencv-python==3.4.2.17
+  - opencv-contrib-python==3.4.2.17
+
