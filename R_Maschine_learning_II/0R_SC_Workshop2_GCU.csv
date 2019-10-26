@@ -1,0 +1,27 @@
+Name,DegreeLevel,DegreeSubject,NSiblings,Income
+ Anton A. ,Ba, Mathematics ,0,924
+ Brian B. ,Ba, Economics ,1,789
+ Colin C. ,Ba, Biotechnology ,0,1365
+ Daisy D. ,Ma, Biotechnology ,1,683
+ Emily E. ,Ba, Elec. Engineer. ,1,744
+ Frank F. ,Ba, Elec. Engineer. ,2,640
+ George G. ,Ba, Economics ,2,631
+ Henry H. ,Ma, Mathematics ,1,814
+ Ida I. ,Ba, Elec. Engineer. ,1,778
+ Julian J. ,Ma, Biotechnology ,0,1062
+ Karl K. ,Ba, Biotechnology ,0,1230
+ Lawrie L. ,Foundation, Mathematics ,1,700
+ Martha M. ,Ba, Biotechnology ,0,850
+ Nina N. ,Ma, Economics ,3,641
+ Oswald O. ,Ma, Elec. Engineer. ,2,640
+ Paul P. ,Ba, Biotechnology ,0,850
+ Quincy Q. ,Ba, Biotechnology ,1,683
+ Ruth R. ,Ma, Economics ,0,616
+ Samuel S. ,Ba, Biotechnology ,1,683
+ Tom T. ,Ba, Biotechnology ,2,683
+ Ulrich U. ,Ba, Mathematics ,1,660
+ Victor V. ,Ma, Biotechnology ,1,1440
+ William W. ,Ba, Economics ,3,794
+ Xavier X. ,Ba, Economics ,1,780
+ Yvonne Y. ,Ba, Mathematics ,0,660
+ Zachary Z. ,Foundation, Elec. Engineer. ,3,640
