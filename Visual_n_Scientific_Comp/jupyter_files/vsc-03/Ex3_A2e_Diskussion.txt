@@ -1,0 +1,24 @@
+* Welchen Polynomgrad haben sie für die Messdaten ausgewählt und warum?
+
+Auffällig ist die Reduktion des Fehlers mit steigendem Polynomgrad. Nach visueller Betrachtung
+verlässt das Regressionspolynom die Mitte der rauschbehafteten Daten und reduziert damit den Fehler.
+Das überfittete Polynom hat lokal starke Variationen statt mittig innerhalb der Daten zu liegen. 
+Bei der visuellen Auswahl wurden Polynome ausgewählt, die mit minimalem Grad die Daten möglichst gut
+abbilden und frei von Überschwingern sind. 
+
+Die gewählten Plynomgrade sind in Abb. Ex3_A2e_gewähltGrad.png als Überschriften eingetragen.
+d0.npy: Grad 1
+d1.npy: Grad 2
+d2.npy: Grad 3
+d3.npy: Grad 5
+d4.npy: Grad 5
+
+* Warum ist es sinnvoll möglichst niedrige Polynome zu verwenden und warum?
+Wenn die Regressionkurve z.B. als Steuerung einer Anlage dient, ist eine stetige langsame
+Veränderung der Werte zu bevorzugen. Ein Polygon hohen Grades hat lokal starke Veränderungen welche
+zu instabilität des Systems führen können.
+Höhergradige Polynome sind stark Abhängig von den Datenpunkten, falls wenige verändert werden oder
+die Punkte sich durch Rauschen leicht verändern, ist mit starken Variationen des Polynoms zu
+rechnen. Polynome niedrigen Grades sind stabiler gegen Veränderungen der Daten.
+
+
