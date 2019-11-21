@@ -35,10 +35,10 @@ def convolution2D(img, kernel):
     #print(workimg.shape)
     
     #rk, ck = kernel.shape[:2]
-    ri, ci = workimg.shape[:2]
+    ri, ci = img.shape[:2]
     
-    for r in range (ri-offset): # here rows of image
-        for c in range (ci-offset): # here columns of image
+    for r in range (ri): # here rows of image
+        for c in range (ci): # here columns of image
             # slice out kernel sized section
             newimg[r,c] = np.sum(workimg[r:r+offset,c:c+offset] * kernel)   
 
