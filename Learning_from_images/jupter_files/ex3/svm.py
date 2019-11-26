@@ -10,8 +10,9 @@ from sklearn import svm
 #              Image Classification
 #
 ############################################################
-
-
+print('test1')
+print('test2')
+a = np.array([ 1,2,3,4])
 # 1. Implement a SIFT feature extraction for a set of training images ./images/db/train/** (see 2.3 image retrieval)
 # use 256x256 keypoints on each image with subwindow of 15x15px
 
