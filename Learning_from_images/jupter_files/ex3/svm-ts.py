@@ -50,7 +50,7 @@ def create_keypoints(w, h):
     for r in point_h:
         for c in point_w:
             #print(r,c)
-            keypoints.append(cv2.KeyPoint(r,h, keypointSize))
+            keypoints.append(cv2.KeyPoint(r,c, keypointSize))
     
     return keypoints
 
