@@ -1,0 +1,30 @@
+Exercise 4.1: 
+
+PCA k10:
+Self reconstruction error:  14.243871887998617
+Mean reconstruction error over all: 16.18600474187162
+
+PCA k75:
+Self reconstruction error:  11.091640861852449
+Mean reconstruction error over all: 10.482807792421362
+
+PCA k150:
+Self reconstruction error: 9.690578381126194
+Mean reconstruction error over all: 9.362520042964487
+
+
+Exercise 4.2:
+
+NN fully connected 2 layers
+k10
+Self reconstruction error: 15.994003021654029
+Mean reconstruction error over all: 20.30333274128906 
+
+k75
+Self reconstruction error: 12.434908768736756
+Mean reconstruction error over all: 12.59960480186194
+
+k150
+Self reconstruction error: 13.033271441275263 
+Mean reconstruction error over all: 11.966613734423415
+
