@@ -1,0 +1,22 @@
+A 1a) Wie eine schlanke '3' mit kurzen Armen aus.
+In den Daten an denen die PCA durchgeführt wurde waren nur dreien enthalten. Daher sind nur Feature von dreien enthalten. Bei der Rekontruktion wird anhand der zwei Komponenten auf Features are '3'en zugegriffen.
+
+A 1b) Wie eine idialisierte '3'. 
+
+A 1c) PCA kann bei hoch dimensionalen Daten zur Dimensionsreduktion verwendet werden. Dadurch kann einem Overfitting von Klassifikatoren entgegengewirkt werden. 
+
+Beispiel: 
+Datensatz mit vielen Dimensionen in niedrig dimensionalen Datenraum überführen und dort den Klassifikator trainieren und validieren. Dann schrittweise die PCA Komponentenanzahl weiter reduzieren/erhöhen bis ausreichende Klassifizierungsgenauigkeit erreicht wird.
+
+A 2a) 1.Hauptkomponente kodiert die Rotation / Neigung.
+1.Hauptkomponente >0 : rotation gegen den Uhrzeigersin
+1.Hauptkomponente <0 : rotation im Uhrzeigersin
+
+A 2b) 2.Hauptkomonente dicke / Fläche der Linie 
+2.Hauptkomponente >0 : dickere / stärkere Linie
+2.Hauptkomponente <0 : dünnere Linie
+
+A 2c) Anhand der ersten zwei Hauptkomponenten kann direkt bestimmt werden welche Neigung und dicke diese neue Instanz hat.
+
+
+
