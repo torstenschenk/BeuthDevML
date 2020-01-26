@@ -73,7 +73,7 @@ def prepare_CIFAR10_images(num_training=49000, num_validation=1000):
 #
 #########################################################################
 
-def plot_loss(stats,name):
+def plot_loss(stats,name='plot_loss'):
     # plot the loss history
     plt.plot(stats['loss_history'])
     plt.plot(stats['loss_val_history'], 'r')
@@ -84,7 +84,7 @@ def plot_loss(stats,name):
     plt.show()
 
 
-def plot_accuracy(stats,name):
+def plot_accuracy(stats,name='plot_acc'):
     plt.plot(stats['train_acc_history'])
     plt.axhline(y=0.47, color='0.75', linestyle='dotted')
     plt.axhline(y=0.5, color='0.75', linestyle='dashdot')
