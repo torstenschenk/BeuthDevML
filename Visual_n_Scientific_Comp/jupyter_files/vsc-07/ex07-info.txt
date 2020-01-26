@@ -1,0 +1,26 @@
+
+*** Auflistung der Ergebnisse in den Unterordnern ***
+
+Aufgabe1, Aufgabe2, Aufgabe3:
+01-base-implementation: (mit ca. 0.445 Klassifikationsgenauigkeit)
+
+
+Aufgabe 4:
+Optimierung, exportierte Bilder sind mit der vollen Info ihrer Parameter versehen mit denen 
+die Genauigkeit erreicht wurde.
+
+02-opt1-variation-all-params: (bis zu 0.491 % Genauigkeit)
+Variation aller Parameter in 10% Schritten hoch oder runter, beibehalten der 
+Parameter die eine Verbesserung bringen.
+Beste Ergebnisse als Plots beigefügt.
+
+03-opt2-vari-hidden-layer-epoch: (nur bis zu 0.479 % Genauigkeit)
+Weitere automatische Optimierung mit angepassten Startparametern.
+
+04-opt3-further: (nun bis zu 0.544 % Genauigkeit !!!)
+Nochmals geänderte Startparameter und diesmal nur Optimierung für den HiddenLayerSize und 
+Anzahl der Iterationen.
+
+Bonus (Hinweis 3)
+05-2hiddenlayers:
+2 Hidden Layers, leider mit niedriger Genauigkeit
