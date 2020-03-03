@@ -1,0 +1,17 @@
+Javascript test with canvas element
+
+2D canvas (subsites/a1-canvas)
+	2D geometric interactive elements
+
+3D canvas (need local webserve e.g. xxamp or go online www.witchplease.de)
+	webgl geometric structures (opengl)
+
+Planet model (need local webserver .e.g. xxamp or go online www.witchplease.de)
+	map texture to spheres and apply transformations and shadow, 
+	toggle second camera with 't' rotating around Mars
+
+Fractured hearts (need local webserver .e.g. xxamp or go online www.witchplease.de)
+	load offline 3d model (triangles with mapped texture, blender export)
+
+
+
